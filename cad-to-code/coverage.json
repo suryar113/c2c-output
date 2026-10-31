@@ -1,0 +1,498 @@
+{
+  "scope": "CAD-derived subsystem proposals; native source geometry is present, but this software preview grants no visual or physical approval. Fill in per-subsystem Constants for the installed robot. Selected behavior recipes are listed; other classes provide named capability APIs. No electrical configuration, physical operation or robot-ready approval verified.",
+  "inventory": {
+    "entries": [
+      {
+        "id": "source-group:bfcfd9fd",
+        "name": "Drivetrain",
+        "status": "awaiting implementation",
+        "devices": [
+          {
+            "partId": "root/0/5/479/20/part0",
+            "name": "actuator",
+            "kind": "motor"
+          },
+          {
+            "partId": "root/0/5/493/8/part0",
+            "name": "actuator",
+            "kind": "motor"
+          }
+        ]
+      },
+      {
+        "id": "source-group:59b227c6",
+        "name": "Intake",
+        "status": "awaiting implementation",
+        "devices": [
+          {
+            "partId": "root/0/3/6/part0",
+            "name": "actuator",
+            "kind": "motor"
+          }
+        ]
+      },
+      {
+        "id": "source-group:a3e6ffae",
+        "name": "Feeder",
+        "status": "awaiting implementation",
+        "devices": [
+          {
+            "partId": "root/0/0/18/part0",
+            "name": "actuator",
+            "kind": "servo"
+          }
+        ]
+      },
+      {
+        "id": "source-group:c377d72a",
+        "name": "Pollen pusher",
+        "status": "awaiting implementation",
+        "devices": [
+          {
+            "partId": "root/0/1/8/part0",
+            "name": "actuator",
+            "kind": "servo"
+          }
+        ]
+      },
+      {
+        "id": "source-group:2fd44b28",
+        "name": "Shooter",
+        "status": "awaiting implementation",
+        "devices": [
+          {
+            "partId": "root/0/2/35/22/part0",
+            "name": "actuator",
+            "kind": "motor"
+          }
+        ]
+      },
+      {
+        "id": "source-group:16bf9ab",
+        "name": "Passive structure",
+        "status": "passive",
+        "devices": []
+      }
+    ],
+    "actuators": [
+      {
+        "partId": "root/0/0/18/part0",
+        "name": "Smart Robot Servo V2 - Balanced (REV-41-3334)",
+        "kind": "servo",
+        "owner": "Feeder",
+        "status": "awaiting implementation"
+      },
+      {
+        "partId": "root/0/1/8/part0",
+        "name": "Smart Robot Servo V2 - Balanced (REV-41-3334)",
+        "kind": "servo",
+        "owner": "Pollen pusher",
+        "status": "awaiting implementation"
+      },
+      {
+        "partId": "root/0/2/35/22/part0",
+        "name": "REV-41-1291",
+        "kind": "motor",
+        "owner": "Shooter",
+        "status": "awaiting implementation"
+      },
+      {
+        "partId": "root/0/3/6/part0",
+        "name": "REV-41-1300",
+        "kind": "motor",
+        "owner": "Intake",
+        "status": "awaiting implementation"
+      },
+      {
+        "partId": "root/0/5/479/20/part0",
+        "name": "REV-41-1291",
+        "kind": "motor",
+        "owner": "Drivetrain",
+        "status": "awaiting implementation"
+      },
+      {
+        "partId": "root/0/5/493/8/part0",
+        "name": "REV-41-1291",
+        "kind": "motor",
+        "owner": "Drivetrain",
+        "status": "awaiting implementation"
+      }
+    ],
+    "omissions": [
+      {
+        "id": "source-group:bfcfd9fd",
+        "name": "Drivetrain",
+        "status": "awaiting implementation",
+        "devices": [
+          {
+            "partId": "root/0/5/479/20/part0",
+            "name": "actuator",
+            "kind": "motor"
+          },
+          {
+            "partId": "root/0/5/493/8/part0",
+            "name": "actuator",
+            "kind": "motor"
+          }
+        ]
+      },
+      {
+        "id": "source-group:59b227c6",
+        "name": "Intake",
+        "status": "awaiting implementation",
+        "devices": [
+          {
+            "partId": "root/0/3/6/part0",
+            "name": "actuator",
+            "kind": "motor"
+          }
+        ]
+      },
+      {
+        "id": "source-group:a3e6ffae",
+        "name": "Feeder",
+        "status": "awaiting implementation",
+        "devices": [
+          {
+            "partId": "root/0/0/18/part0",
+            "name": "actuator",
+            "kind": "servo"
+          }
+        ]
+      },
+      {
+        "id": "source-group:c377d72a",
+        "name": "Pollen pusher",
+        "status": "awaiting implementation",
+        "devices": [
+          {
+            "partId": "root/0/1/8/part0",
+            "name": "actuator",
+            "kind": "servo"
+          }
+        ]
+      },
+      {
+        "id": "source-group:2fd44b28",
+        "name": "Shooter",
+        "status": "awaiting implementation",
+        "devices": [
+          {
+            "partId": "root/0/2/35/22/part0",
+            "name": "actuator",
+            "kind": "motor"
+          }
+        ]
+      }
+    ],
+    "key": "{\"actuators\":[{\"kind\":\"servo\",\"name\":\"Smart Robot Servo V2 - Balanced (REV-41-3334)\",\"owner\":\"Feeder\",\"partId\":\"root/0/0/18/part0\",\"status\":\"awaiting implementation\"},{\"kind\":\"servo\",\"name\":\"Smart Robot Servo V2 - Balanced (REV-41-3334)\",\"owner\":\"Pollen pusher\",\"partId\":\"root/0/1/8/part0\",\"status\":\"awaiting implementation\"},{\"kind\":\"motor\",\"name\":\"REV-41-1291\",\"owner\":\"Shooter\",\"partId\":\"root/0/2/35/22/part0\",\"status\":\"awaiting implementation\"},{\"kind\":\"motor\",\"name\":\"REV-41-1300\",\"owner\":\"Intake\",\"partId\":\"root/0/3/6/part0\",\"status\":\"awaiting implementation\"},{\"kind\":\"motor\",\"name\":\"REV-41-1291\",\"owner\":\"Drivetrain\",\"partId\":\"root/0/5/479/20/part0\",\"status\":\"awaiting implementation\"},{\"kind\":\"motor\",\"name\":\"REV-41-1291\",\"owner\":\"Drivetrain\",\"partId\":\"root/0/5/493/8/part0\",\"status\":\"awaiting implementation\"}],\"entries\":[{\"devices\":[{\"kind\":\"motor\",\"name\":\"actuator\",\"partId\":\"root/0/5/479/20/part0\"},{\"kind\":\"motor\",\"name\":\"actuator\",\"partId\":\"root/0/5/493/8/part0\"}],\"id\":\"source-group:bfcfd9fd\",\"name\":\"Drivetrain\",\"status\":\"awaiting implementation\"},{\"devices\":[{\"kind\":\"motor\",\"name\":\"actuator\",\"partId\":\"root/0/3/6/part0\"}],\"id\":\"source-group:59b227c6\",\"name\":\"Intake\",\"status\":\"awaiting implementation\"},{\"devices\":[{\"kind\":\"servo\",\"name\":\"actuator\",\"partId\":\"root/0/0/18/part0\"}],\"id\":\"source-group:a3e6ffae\",\"name\":\"Feeder\",\"status\":\"awaiting implementation\"},{\"devices\":[{\"kind\":\"servo\",\"name\":\"actuator\",\"partId\":\"root/0/1/8/part0\"}],\"id\":\"source-group:c377d72a\",\"name\":\"Pollen pusher\",\"status\":\"awaiting implementation\"},{\"devices\":[{\"kind\":\"motor\",\"name\":\"actuator\",\"partId\":\"root/0/2/35/22/part0\"}],\"id\":\"source-group:2fd44b28\",\"name\":\"Shooter\",\"status\":\"awaiting implementation\"},{\"devices\":[],\"id\":\"source-group:16bf9ab\",\"name\":\"Passive structure\",\"status\":\"passive\"}]}",
+    "included": 0,
+    "unresolved": 0,
+    "excluded": 0,
+    "structure": 0,
+    "passive": 1
+  },
+  "excluded": [
+    {
+      "name": "Passive structure",
+      "category": "inventory",
+      "state": "passive",
+      "partIds": [
+        "root/0/4/0/part0",
+        "root/0/4/1/part0",
+        "root/0/4/2/part0",
+        "root/0/4/3/part0",
+        "root/0/4/4/part0",
+        "root/0/4/5/part0",
+        "root/0/4/6/part0",
+        "root/0/4/7/part0",
+        "root/0/4/8/part0",
+        "root/0/4/9/part0",
+        "root/0/4/10/part0",
+        "root/0/4/11/part0",
+        "root/0/4/12/part0",
+        "root/0/4/13/part0",
+        "root/0/4/14/part0",
+        "root/0/4/15/part0",
+        "root/0/4/16/part0",
+        "root/0/4/17/part0",
+        "root/0/4/18/part0",
+        "root/0/4/19/part0",
+        "root/0/4/20/part0",
+        "root/0/4/21/part0",
+        "root/0/4/22/part0",
+        "root/0/4/23/part0",
+        "root/0/4/24/part0",
+        "root/0/4/25/part0",
+        "root/0/4/26/part0",
+        "root/0/4/27/part0",
+        "root/0/4/28/part0",
+        "root/0/4/29/part0",
+        "root/0/4/30/part0",
+        "root/0/4/31/part0",
+        "root/0/4/32/part0",
+        "root/0/4/33/part0",
+        "root/0/4/34/part0",
+        "root/0/4/35/part0",
+        "root/0/4/36/part0",
+        "root/0/4/37/part0",
+        "root/0/4/38/part0",
+        "root/0/4/39/part0",
+        "root/0/4/40/part0",
+        "root/0/4/41/part0",
+        "root/0/4/42/part0",
+        "root/0/4/43/part0",
+        "root/0/4/44/part0",
+        "root/0/4/45/part0",
+        "root/0/4/46/part0",
+        "root/0/4/47/part0",
+        "root/0/4/48/part0",
+        "root/0/4/49/part0",
+        "root/0/4/50/part0",
+        "root/0/4/51/part0",
+        "root/0/4/52/part0",
+        "root/0/4/53/part0",
+        "root/0/4/54/part0",
+        "root/0/4/55/part0",
+        "root/0/4/56/part0",
+        "root/0/4/57/part0",
+        "root/0/4/58/part0",
+        "root/0/4/59/part0",
+        "root/0/4/60/part0",
+        "root/0/4/61/part0",
+        "root/0/4/62/part0",
+        "root/0/4/63/part0",
+        "root/0/4/64/part0",
+        "root/0/4/65/part0",
+        "root/0/4/66/part0",
+        "root/0/4/67/part0",
+        "root/0/4/68/part0",
+        "root/0/4/69/part0",
+        "root/0/4/70/part0",
+        "root/0/4/71/part0",
+        "root/0/4/72/part0",
+        "root/0/4/73/part0",
+        "root/0/4/74/part0",
+        "root/0/4/75/part0",
+        "root/0/4/76/part0",
+        "root/0/4/77/part0",
+        "root/0/4/78/part0",
+        "root/0/4/79/part0",
+        "root/0/4/80/part0",
+        "root/0/4/81/part0",
+        "root/0/4/82/part0",
+        "root/0/4/83/part0",
+        "root/0/4/84/part0",
+        "root/0/4/85/part0",
+        "root/0/4/86/part0",
+        "root/0/4/87/part0",
+        "root/0/4/88/part0",
+        "root/0/4/89/part0",
+        "root/0/4/90/part0",
+        "root/0/4/91/part0",
+        "root/0/4/92/part0",
+        "root/0/4/93/part0",
+        "root/0/4/94/part0",
+        "root/0/4/95/part0",
+        "root/0/4/96/part0",
+        "root/0/4/97/part0",
+        "root/0/4/98/part0",
+        "root/0/4/99/part0",
+        "root/0/4/100/part0",
+        "root/0/4/101/part0",
+        "root/0/4/102/part0",
+        "root/0/4/103/part0",
+        "root/0/4/104/part0",
+        "root/0/4/105/part0",
+        "root/0/4/106/part0",
+        "root/0/4/107/part0",
+        "root/0/4/108/part0",
+        "root/0/4/109/part0",
+        "root/0/4/110/part0",
+        "root/0/4/111/part0",
+        "root/0/4/112/part0",
+        "root/0/4/113/part0",
+        "root/0/4/114/part0",
+        "root/0/4/115/part0",
+        "root/0/4/116/part0",
+        "root/0/4/117/part0",
+        "root/0/4/118/part0",
+        "root/0/4/119/part0",
+        "root/0/4/120/part0",
+        "root/0/4/121/part0",
+        "root/0/4/122/part0",
+        "root/0/4/123/part0",
+        "root/0/4/124/part0",
+        "root/0/4/125/part0",
+        "root/0/4/126/part0",
+        "root/0/4/127/part0",
+        "root/0/4/128/part0",
+        "root/0/4/129/part0",
+        "root/0/4/130/part0",
+        "root/0/4/131/part0",
+        "root/0/4/132/part0",
+        "root/0/4/133/part0",
+        "root/0/4/134/part0",
+        "root/0/4/135/part0",
+        "root/0/4/136/part0",
+        "root/0/4/137/part0",
+        "root/0/4/138/part0",
+        "root/0/4/139/part0",
+        "root/0/4/140/part0",
+        "root/0/4/141/part0",
+        "root/0/4/142/part0",
+        "root/0/4/143/part0",
+        "root/0/4/144/part0",
+        "root/0/4/145/part0",
+        "root/0/4/146/part0",
+        "root/0/4/147/part0",
+        "root/0/4/148/part0",
+        "root/0/4/149/part0",
+        "root/0/4/150/part0",
+        "root/0/4/151/part0",
+        "root/0/4/152/part0",
+        "root/0/4/153/part0",
+        "root/0/4/154/part0",
+        "root/0/4/155/part0",
+        "root/0/4/156/part0",
+        "root/0/4/157/part0",
+        "root/0/4/158/part0",
+        "root/0/4/159/part0",
+        "root/0/4/160/part0",
+        "root/0/4/161/part0",
+        "root/0/4/162/part0",
+        "root/0/4/163/part0",
+        "root/0/4/164/part0",
+        "root/0/4/165/part0",
+        "root/0/4/166/part0",
+        "root/0/4/167/part0",
+        "root/0/4/168/part0",
+        "root/0/4/169/part0",
+        "root/0/4/170/part0",
+        "root/0/4/171/part0",
+        "root/0/4/172/part0",
+        "root/0/4/173/part0",
+        "root/0/4/174/part0",
+        "root/0/4/175/part0",
+        "root/0/4/176/part0",
+        "root/0/4/177/part0",
+        "root/0/4/178/part0",
+        "root/0/4/179/part0",
+        "root/0/4/180/part0",
+        "root/0/4/181/part0",
+        "root/0/4/182/part0",
+        "root/0/4/183/part0",
+        "root/0/4/184/part0",
+        "root/0/4/185/part0",
+        "root/0/4/186/part0",
+        "root/0/4/187/part0",
+        "root/0/4/188/part0",
+        "root/0/4/189/part0",
+        "root/0/4/190/part0",
+        "root/0/4/191/part0",
+        "root/0/4/192/part0",
+        "root/0/4/193/part0",
+        "root/0/4/194/part0",
+        "root/0/4/195/part0",
+        "root/0/4/196/part0",
+        "root/0/4/197/part0",
+        "root/0/4/198/part0",
+        "root/0/4/199/part0",
+        "root/0/4/200/part0",
+        "root/0/4/201/part0",
+        "root/0/4/202/part0",
+        "root/0/4/203/part0",
+        "root/0/4/204/part0",
+        "root/0/4/205/part0",
+        "root/0/4/206/part0",
+        "root/0/4/207/part0",
+        "root/0/4/208/part0",
+        "root/0/4/209/part0",
+        "root/0/4/210/part0",
+        "root/0/4/211/part0",
+        "root/0/4/212/part0",
+        "root/0/4/213/part0",
+        "root/0/4/214/part0",
+        "root/0/4/215/part0",
+        "root/0/4/216/part0",
+        "root/0/4/217/part0",
+        "root/0/4/218/part0",
+        "root/0/4/219/part0",
+        "root/0/4/220/part0",
+        "root/0/4/221/part0",
+        "root/0/4/222/part0",
+        "root/0/4/223/part0",
+        "root/0/4/224/part0",
+        "root/0/4/225/part0",
+        "root/0/4/226/part0",
+        "root/0/4/227/part0",
+        "root/0/4/228/part0",
+        "root/0/4/229/part0",
+        "root/0/4/230/part0",
+        "root/0/4/231/part0",
+        "root/0/4/232/part0",
+        "root/0/4/233/part0",
+        "root/0/4/234/part0",
+        "root/0/4/235/part0",
+        "root/0/4/236/part0",
+        "root/0/4/237/part0",
+        "root/0/4/238/part0",
+        "root/0/4/239/part0",
+        "root/0/4/240/part0",
+        "root/0/4/241/part0",
+        "root/0/4/242/part0",
+        "root/0/4/243/part0"
+      ]
+    }
+  ],
+  "requiredConfiguration": [
+    {
+      "name": "Drivetrain",
+      "kind": "mappedTankDrive",
+      "requiredConfiguration": [
+        "Explicit runtime assignment of every source motor to left or right; at least one on each side",
+        "Configured motor directions and independent output ownership",
+        "Confirmed robot forward/up frame; drive() is robot-centric",
+        "No side mapping, wiring, odometry or field-centric conversion is inferred"
+      ]
+    },
+    {
+      "name": "Intake",
+      "kind": "poweredIntake",
+      "requiredConfiguration": [
+        "Explicitly configured motor directions and independent output ownership",
+        "Independently selected job and reversing powers for every motor; open-loop power is not a measured speed or readiness signal",
+        "No automatic sensing or jam recovery is claimed without an installed input and policy"
+      ]
+    },
+    {
+      "name": "Feeder",
+      "kind": "servoFeeder",
+      "requiredConfiguration": [
+        "Explicitly established continuous-servo adapters before named powered actions",
+        "Selected independent forward/reverse powers and configured directions for every servo",
+        "Positional capability remains separately guarded where mode is unknown; no timed gate or measured endpoints are inferred"
+      ]
+    },
+    {
+      "name": "Pollen pusher",
+      "kind": "pusherEndpoints",
+      "requiredConfiguration": [
+        "Explicit positional servo mode for each output",
+        "Measured extended/retracted endpoints for every servo",
+        "stop() holds positional servos; it does not infer a safe retract policy"
+      ]
+    },
+    {
+      "name": "Shooter",
+      "kind": "velocityFlywheel",
+      "requiredConfiguration": [
+        "Actual encoder feedback on every flywheel motor",
+        "Measured encoder ticks per output revolution for each wheel",
+        "Configured velocity PIDF, directions and independent ownership",
+        "Selected maximum RPM, readiness tolerance, dwell and sample freshness",
+        "Monotonic seconds and update() on every robot loop"
+      ]
+    }
+  ]
+}
